@@ -18,3 +18,5 @@ try:
 		raise myexc("myexc occurred");
 except myexc:
 	print (" [FTE] error occurred.");
+else:
+	print (" no error occurred");
